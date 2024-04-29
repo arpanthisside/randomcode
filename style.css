@@ -1,0 +1,273 @@
+* {
+    font-family: Plus Jakarta Sans; 
+  }
+
+  .body {
+    background-color: #920202;
+
+  }
+  
+  nav {
+    background-color: #110606;
+    color: #fff;
+    padding-left: 10px;
+    margin-top: 0;
+    padding-bottom: 8px;
+    display: flex; 
+    border-radius: 1.2em;
+    justify-content: space-between;
+  }
+  
+  #lb{
+    padding: 10px;
+ 
+
+    display: flex;
+    align-items: center;
+    border-radius: 1.2em;
+    justify-content: space-between;
+    
+  }
+
+  #lb:hover{
+    background-color: #da882b;
+    font-weight: 900;
+    color: #ac0c0c;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    
+  }
+  
+  nav li a {
+    color: inherit;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  nav li a:hover {
+    background-color: #da882b;
+    border-radius: 0.9em;
+    
+  }
+
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7e7e7e;
+    margin: 10px;
+    align-items: center;
+    min-width: 150px;
+    border-radius: 0.9em;
+    transition: 0.2s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+  }
+  
+  .dropdown-content a {
+    color: rgb(249, 249, 249);
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #d38c2e;
+    font-weight: 900;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .logo-main {
+    display: flex;
+ margin-left: 3em;
+    flex-direction: row;
+    justify-content: left; 
+    height: 4.9em;
+    margin-top: 190px; 
+    margin-bottom: 180px; 
+    padding: 0;
+  }
+  
+  .logo-main img {
+    display: block;
+
+    height: 100%; 
+  }
+  
+
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 1.2em;
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 90%; 
+    margin: 0 auto; 
+  }
+  
+  .footer-col {
+    flex: 1;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+  
+  .footer-col h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-col a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .footer-col a:hover {
+    color: #da882b; 
+  }
+  
+  .social-links {
+    display: flex; 
+  }
+  
+  .social-links li {
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    color: inherit;
+  }
+  
+  .social-links i {
+    font-size: 20px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .sidenav a {
+    padding: 20px 15px 2px 34px;
+    padding-top: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.23s;
+  }
+  
+  .sidenav a:hover {
+    color: #dba55a;
+    font-weight: 950;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    font-size: 1.2em;
+    /* margin-left: 10px;  */
+  }
+  
+  .typed {
+    overflow: hidden;
+    font-family: shadows into light;
+    display: flex;
+    align-items: center;
+    /* margin-right: 20em; */
+    font-weight: 900;
+    font-size: 2.2em;
+    color: #d38c2e;
+    white-space: nowrap;
+    width: 0;
+    animation: typing infinite alternate;
+    animation-duration: 3s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes typing {
+    0% { width: 0; }
+    50% { width: 100%; } 
+    100% { width: 100%; } 
+  }
+
+  .majhkhan{
+    display:flex;
+    flex-direction: row;
+   
+  }
+
+  .course-stats{
+    margin-bottom: 70px;
+    font-weight: 750;
+    padding:8px 8px 8px 32px;
+    color:#a6a5a5;
+    margin-left: 30px;
+    font-size: 1.2em;
+  
+  }
+
+  .course-stats li {
+    margin-bottom: 10px; 
+  }
